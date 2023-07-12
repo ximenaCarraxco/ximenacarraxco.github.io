@@ -1,0 +1,569 @@
+---
+title: "Entrega 4"
+author: "Luis Soria"
+date: "2023-07-12"
+output: html_document
+rmdformats::readthedown
+---
+
+
+INTRODUCCIÓN:
+“Las migraciones son simultáneamente el resultado del cambio global, y una fuerza poderosa de cambios posteriores, tanto en las sociedades de origen como en las receptoras.” 
+-	Stephen Castles. Texto del discurso inaugural presentado en la reunión del Consejo Intergubernamental del MOST, 16 de junio de 1997.
+http://www.ub.edu/prometheus21/articulos/nautas/18.pdf 
+
+V.D: Desplazamiento
+
+
+VI:
+Justificación: La edad de los migrantes puede socavar ciertos datos estadísticos como una característica. Los rangos de edad influyen en nuestro análisis sobre las migraciones y sus posibles factores sobre su función para relacionarlo con la variable. Según  Ruiz, las migraciones resaltan la “alta dependencia infantil y los patrones caracterizados, en su mayoría, por la presencia de población en edad laboral”, lo cual puede llevar a que la economía doméstica a la cual llegan los migrantes sea afectada tanto de manera negativa como positiva. 
+-	Jovenes 
+-	Adultos 
+-	Vejez
+Justificación: Así mismo, el sexo es un factor que tiene gran importancia pues, como sostiene Palacios (2016),  las experiencias migratorias de hombres y mujeres son muy diferentes unas de sí, pues estas últimas, pueden llear a extar más expuestas con mayor frecuencia a diversas vulneraciones contra sus personas.  Para efectos del trabajo, se hará una diferenciación entre el Total de mujeres migrantes y el Total de hombres migrantes. 
+-	TotalhombresMigrantes 
+-	TotalMujeresMigrantes 
+
+-	CalidadVida 
+Justificación: Por otro lado, teniendo en cuenta que la variable dependiente habla sobre la tasa de migraciones hacia Europa, la variable Calidad de Vida explicaría por qué las personas escogerían a esta región y por consecuencia, los países en donde se quedarían la mayor parte de las personas. Por ejemplo, como se refleja en el estudio realizado por Romero, Nunes, Montilla, Lemos, Gomez y Ayala (2017), los migrantes, en este caso, adolescentes en España y Portugal, tienen percepciones sobre su bienestar y salud bastante satisfactorias, con puntuaciones medias altas. 
+
+-	DemocraciaNivel
+Justificación: El índice del estado de la democracia también vendría a ser una variable independiente interesante, y no menos importante, a analizar pues esta puede provocar que exista una mayor o menor tasa de migración. En su artículo, Bagwell(2016). sostiene que el deterior de los políticas de derechos humanos, las oportunidades econócas y los conflictos y represión estatal pueden ser un factor importante para llevar a alguna persona a migrar
+
+
+-	PromedioGananciaMensualDólares
+Justificación: La remuneración es uno de los fines que cualquier individuo necesita para poder subsistir. Está variable se relaciona con nuestra variable dependiente a partir del número de migraciones a partir de los niveles de salario en Europa.  
+
+-Refugiado: Un refugiado, según la Convención de Ginebra
+de 1951, es “cualquier persona que, debido a un temor bien fundado de ser perseguido por razones de raza, religión, nacionalidad, pertenencia a un grupo social particular u opinión política, está fuera del país de su nacionalidad y es incapaz de, o debido a ese temor no quiere, buscar protección en este país” (Barahona, 2003)
+
+-Permiso de residencia: Puesto a que la variable dependiente habla sobre las migraciones hacia Europa, ell permiso de residencia de larga duración UE (Art. 9a de la Ley sobre la residencia - AufenthG) es un título de residencia ilimitado, y es comparado con el permiso de establecimiento. Las personas que se encuentren en posesión de este título de residencia podrán trasladarse en condiciones menos estrictas a casi todos los países de la UE y obtener un derecho de residencia.
+
+-Migrantes en edad para trabajar: El desempleo y la creciente pobreza han inducido a muchos trabajadores de los países subdesarrollados a buscar oportunidades laborales en el extranjero. De hecho, se estima que el 73% de los migrantes son trabajadores. En los países desarrollados ha aumentado la demanda de trabajadores, especialmente de trabajadores no calificados. Como consecuencia de ello, son millones los trabajadores y sus familias que viajan a otros países para encontrar trabajo (OIT, 2017).
+
+-Índice de Desarrollo Humano:
+De acuerdo con Vive (2021), el Índice de Desarrollo Humano (IDH) es un conjunto de indicadores del Programa de Naciones Unidas para el Desarrollo (PNUD) que miden el nivel de desarrollo de los países de todo el mundo incluyendo parámetros más allá de los ingresos económicos. Si bien nuestro trabajo abarca países de Europa y de Oriente, podemos usar la definición del MEF peruano para explicar un poco mejor el IDH; de acuerdo con el MEF, el IDH es una medida sinóptica del desarrollo humano. Mide los adelantos medios de un país en tres aspectos básicos del desarrollo humano:
+1. Una vida larga y saludable, medida por la esperanza de vida al nacer.
+2. Conocimientos, medidos por la tasa de alfabetización de adultos (con una ponderación de dos tercios) y la combinación de las tasas brutas de matriculación primaria, secundaria y terciaria (con una ponderación de un tercio).
+3. Un nivel de vida decoroso, medido por el PIB per cápita (PPA, dólares EE.UU.)
+El Índice de Desarrollo Humano (IDH) es un conjunto de indicadores del Programa de Naciones Unidas para el Desarrollo (PNUD) que miden el nivel de desarrollo de los países de todo el mundo incluyendo parámetros más allá de los ingresos económicos.
+
+-Protección social: De acuerdo con el Banco Mundial (2023), este tiene una visión sobre la protección social universal para garantizar que todas las personas cuenten con el apoyo que necesitan y que ningún individuo o grupo quede rezagado. Estos sistemas de protección son esenciales para impulsar el capital humano y empoderar a las personas. Ayudan a las personas y las familias, en particular los pobres y vulnerables, a hacer frente a las crisis, encontrar empleo, mejorar la productividad, invertir en la salud y la educación de sus hijos y proteger a la población de edad avanzada.
+
+-Gasto militar: De acuerdo con Arroyo (2022), se entiende por el gasto militar todo lo referido al financiamiento de las fuerzas armadas incluyendo las fuerzas pacificadoras, ministerios de defensa, fuerzas paramilitares, así como actividades militares espaciales.
+Arroyo Mendoza, L. C. V. (2022). Relaciones no-lineales entre el gasto militar, el empleo y el crecimiento económico.
+
+
+
+CITAS:
+Palacios, Yennesit. (2016). “Perspectiva de género en los fenómenos migratorios: estudio desde Europa y América Latina”. Revista CES derecho, vol.7, no.2, pp. 145-162.
+http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S2145-77192016000200011&ln 
+RUIZ-SANTACRUZ, Javier Sebastian. (2019). "Estimación de calendarios migratorios mediante la simulación de los valores iniciales en las optimizaciones de parámetros de los modelos de migración multi-exponenciales: Una aplicación a la migración internacional intralatinoamericana". Papers de Demografia, 463: 1-69. Bellaterra: Centre d'Estudis Demogràfics. 
+https://ddd.uab.cat/record/212615?ln=es 
+Romero-Oliva, Cristina, Nunes, Cristina, Montilla Coronado, Cecilia, Lemos, Ida, Hernando Gómez, Ángel, & Ayala-Nunes, Lara. (2017). “Calidad de vida y competencias sociales: un estudio comparativo entre adolescentes nativos e inmigrantes de España y Portugal”. Universitas Psychologica, 16(3), 223-233. 
+https://doi.org/10.11144/javeriana.upsy16-3.cvcs 
+
+Bagwell, Sarah L. "Democracy and Migration: Towards a Theoretical Framework." **International Migration Review 50, no. 1 (2016): 1-32.
+
+Barahona, S. P. (2003). El estatuto de" refugiado" en la Convención de Ginebra de 1951. Revista Electrónica de Derecho de la Universidad de La Rioja (REDUR), (1), 225-250.
+
+-Make it in Germany. (2023). Permiso de residencia permanente UE. Make-it-in-germany.com. 
+https://www.make-it-in-germany.com/es/visado-residencia/vivir-permanentemente-alemania/permiso-residencia-ue
+
+-OIT. (2017). Migración laboral: nuevo contexto y desafíos de gobernanza , informe IV, Conferencia Internacional del Trabajo, 106.a reunión, Ginebra, 2017.
+https://www.ilo.org/global/standards/subjects-covered-by-international-labour-standards/migrant-workers/lang--es/index.htm
+
+-Vive. (2021, diciembre 2). ¿Qué es el Índice de Desarrollo Humano? UNIR. 
+https://www.unir.net/ciencias-sociales/revista/que-es-el-indice-de-desarrollo-humano-idh/
+Ministerio de Economía y Finanzas. Gob.pe. Recuperado el 12 de julio de 2023, de https://www.mef.gob.pe/es/?option=com_content&language=es-ES&Itemid=100694&view=article&catid=750&id=4858&lang=es-ES  
+
+-Banco Mundial (2023). Protección social. https://www.bancomundial.org/es/topic/socialprotection/overview 
+
+```{r}
+library(rmdformats)
+library(rio)
+```
+
+```{r}
+data=import("BASE_JUNTA.xlsx")
+```
+
+CONVERTIR VARIABLES
+
+- CalidadVida
+```{r}
+#pasar a numérico
+data$CalidadVida = as.numeric(data$CalidadVida)
+
+```
+
+- DemocraciaNivel
+```{r}
+data$DemocraciaNivel=ordered(data$DemocraciaNivel,
+                levels=c(1,2,3,4,5),
+                labels=c("High democracy","Mid-range democracy","Weak democracy", "Hybrid Regime", "Authoritarian Regime" ))
+```
+```{r}
+data$PromedioGananciaMensualDólares=as.numeric(data$PromedioGananciaMensualDólares)
+```
+```{r}
+data$Jóvenes=as.numeric(data$Jovenes)
+```
+```{r}
+data$Adultos=as.numeric(data$Adultos)
+```
+```{r}
+data$Vejez=as.numeric(data$Vejez)
+```
+```{r}
+data$TotalhombresMigrantes=as.numeric(data$TotalhombresMigrantes)
+```
+```{r}
+data$TotalMujeresMigrantes=as.numeric(data$TotalMujeresMigrantes)
+```
+```{r}
+data$EdadTra=as.numeric(data$EdadTra)
+```
+```{r}
+data$IDH=as.numeric(data$IDH)
+data$Proteccsocial=as.numeric(data$Proteccsocial)
+data$Gastomilitar=as.numeric(data$Gastomilitar)
+```
+
+
+CORRELACIÓN 
+Correlación 
+H0: no existe la correlación
+H1: Existe correlación 
+
+```{r}
+#Correlación para la variable partedu
+cor.test(data$PromedioGananciaMensualDólares, data$Desplazamiento, method = c("spearman"))
+```
+
+
+```{r}
+#Correlación para la variable permresidencia
+cor.test(data$Permresidencia, data$Desplazamiento, method = c("spearman"))
+```
+
+
+```{r}
+#Correlación para la variable refugiados
+cor.test(data$Refugiados, data$Desplazamiento, method = c("spearman"))
+```
+
+*Tanto PromedioGananciaMensualDólares como permresidencia  y Refugiados son significativas
+
+```{r}
+#Correlación para la variable Total de Mujeres Migrantes 
+
+shapiro.test(data$TotalMujeresMigrantes)
+cor.test(data$Desplazamiento, data$TotalMujeresMigrantes, method = c("pearson"))
+```
+
+```{r}
+#Correlación para calidad de vida
+cor.test(data$CalidadVida, data$Desplazamiento, method = c("spearman"))
+```
+explica lo suficiente (<0.05). Además el cor: es 0.45 → hay una correlación es mediana
+
+
+*Gráfico para ver el Nivel de Democracia*
+
+```{r}
+library(gplots)
+plotmeans(data$Desplazamiento~data$DemocraciaNivel, p=0.95, 
+          xlab="Nivel de democracia de los paises", ylab="Migraciones en el año 2017", 
+          main="Mean Plot\nwith 95% CI")
+```
+
+
+COrrelación de IDH - PROTECCIÓN SOCIAL - GASTO MILITAR
+Prueba de normalidad
+```{r}
+library(nortest)
+#hipotesis de normalidad
+shapiro.test(data$IDH)
+shapiro.test(data$Proteccsocial)
+shapiro.test(data$Gastomilitar)
+shapiro.test(data$Desplazamiento)
+```
+
+```{r}
+cor.test(data$IDH, data$Desplazamiento, method = c("spearman"))
+cor.test(data$Proteccsocial, data$Desplazamiento, method = c("spearman"))
+cor.test(data$Gastomilitar,data$Desplazamiento, method = c("spearman"))
+```
+
+Solo una variale tienen como pvalue menos de 0.05 (PBI), es decir se rechaza la hipotesis nula y se acepta que existe correlación entre PBI y la variable desplazados.
+
+
+
+**Modelo**
+
+
+MODELO1
+
+```{r}
+#regresión lineal
+reg1=lm(Desplazamiento ~ CalidadVida + IDH,data)
+summary(reg1)
+```
+{r}
+# 1ER MODELO
+#regresión lineal
+```{r}
+modelo1<-lm(Desplazamiento~PromedioGananciaMensualDólares+ Permresidencia+ CalidadVida, data)
+summary(modelo1)
+```
+#
+ La cantidad de migrantes en los países en el año 2017 ha sido afectada por el promedio de ganancia mensual en dólares, permiso de reside  y la calidad de vida.
+
+```{r}
+#2DO MODELO
+#Modelo de la regresión de la VD Desplazamiento  y las variables independientes “Total de Mujeres Migrantes” e “IDH” 
+modelo2=formula(Desplazamiento~TotalMujeresMigrantes+IDH)
+reg2=lm(modelo2,data=data)
+summary(reg2)
+
+#¿cuanto responde el modelo?
+library(modelsummary)
+model2=list('apropiacion (I)'=reg2)
+modelsummary(model2, title = "Regresion: modelo 2",
+             stars = TRUE,
+             output = "kableExtra")
+```
+
+
+
+```{r}
+#3ER MODELO (~desplazamiento + Permresidencia+jovenes + IDH)
+
+modelo3=formula(Desplazamiento~Permresidencia+Jovenes+IDH)
+reg3=lm(modelo3,data=data)
+summary(reg3)
+```
+```{r}
+library(modelsummary)
+model3=list('apropiacion (I)'=reg3)
+modelsummary(model3, title = "Regresion: modelo 3",
+             stars = TRUE,
+             output = "kableExtra")
+```
+
+modelo estandarizados
+```{r}
+
+modelo3b=formula(scale(Desplazamiento)~scale(Gastomilitar)+scale(as.numeric(Proteccsocial))+scale(as.numeric(IDH)))
+
+reg3b=lm(modelo3b,data=data)
+
+model3b=list('apropiacion (III)'=reg3b)
+modelsummary(model3b, title = "Regresion: modelo 3 con \ncoeficientes estandarizados",
+             stars = TRUE,
+             output = "kableExtra")
+
+```
+```{r}
+library(lm.beta)
+```
+
+
+```{r}
+model3c =list('apropiacion (III)'=lm.beta(reg3))
+modelsummary(model3c, title = "Regresion: modelo 3 con \ncoeficientes estandarizados usando lm.beta()",
+             stars = TRUE,
+             output = "kableExtra")
+```
+INTERPRETACIÓN:  REHACER
+-En el caso de la variable Permresidencias, tiene un efecto de 0.1 es decir es poco significativo. Además de tener efecto positivo y la magnitud de ese efecto es de 0.482, lo que indica cuanto varia la variable dependendiente (Cantidad de migrantes por país). lo que indica que cuando varia la cantidad de lermisos de residencia en 1 aumenta en 0.482 el número de migrantes por país.
+-En el caso de la variable jovenes (Cantidad de jovenes que ingresan (%)), tiene efecto  positivo es decir  que cuando aumenta la proporción de protección social  aumenta en 0.616 el número de migrantes.(significativo)
+- En el caso de la variable IDH (índice de desarrollo humano) es significativo y positivo por cada que el idh aumenta en uno el número de migrantes aumentará en 0.039
+
+Comparación de modelos
+```{r}
+library(stargazer)
+stargazer(modelo1,model2,model3, type ="text")
+```
+
+Observamos que, según se muestra en el R2 y el R2 ajustado, el modelo mas representativo es el modelo 3. Esto se debe a que este explica aproximadamente un 81%.
+```{r}
+library(dplyr)
+library(magrittr)
+library(knitr)
+tanova=anova(modelo1,modelo2,model3)
+tanova
+kable(tanova,
+      caption = "Tabla ANOVA para comparar modelos")%>%kableExtra::kable_styling(full_width = FALSE)
+```
+
+```{r}
+library(ggplot2)
+library(sjPlot)
+plot_models(reg1,reg2,reg3,vline.color = "blue",m.labels=c("Modelo 1","Modelo 2","Modelo 3"))
+```
+Interpretación: REHACER
+Como observamos, el propósito de este gráfico es mostrar que dado que tanto el modelo 1, como el modelo 2  y el modelo 3 tocan el valor 0, significa que la variable tiene efecto sobre la dependiente. Es decir, el modelo 1 como el modelo 2 y el 3 son representativos.
+
+Este modelo es representativo debido a que tanto los permisos de residencia, el número de jovenes y la calidad de vida permiten abordar, de mejor manera, la tasa de migraciones. Es decir, son estas variables dependientes que se ajustan mas para responder como varía la tasa de migraciones.
+
+Como conclusión, observamos que, para nuestro variable dependiente, la cual es la tasa de migraciones, tanto las variables de porcentaje de ingreso de jovenes, permisos de residencia y el IDh,  son fundamentales para poder analizar la dependiente.
+Asimismo, el tema sobre las migraciones nos permiten no solo centrarnos en estas variables. Como hemos podido analizar, existen diversas variables independientes que pueden mejorar nuestro modelo.
+
+Pruebas de confirmación: En estas pruebas buscamos que no posea presencia de multicolinealidad, no tenga presencia de relaciones no lineales entre "x" y "y", que no posea presencia de multicolinealidad, no posea presencia de heterocedasticidad de residuos y sus residuos no se autocorrelacionen.
+
+LINEALIDAD
+```{r}
+plot(reg1, 1)
+```
+
+```{r}
+plot(reg2, 1)
+```
+```{r}
+plot(reg3, 1)
+```
+Podemos afirmar que no existe linealidad en ninguno de los graifos ya que en su mayoria de los datos esta acumulado en los extremos. Aunque el más lineal vendria ser el modelo 2.
+
+HOMOCEDASTICIDAD
+```{r}
+plot(reg1, 3)
+```
+Busca que sea una variación homogenea, a través del grafico podemos inferir que no hay una variación completamente homogenea. Para poder confirmar hacemos el Breusch Pagan .
+```{r}
+library(lmtest)
+library(kableExtra)
+# null: modelo homocedastico
+resBP=bptest(reg1)
+data.frame(list('BP'=resBP$statistic,
+             'df'=resBP$parameter,
+             "p-value"=resBP$p.value))%>%
+    kable(caption = resBP$method)%>%kable_styling(full_width = F)
+```
+como el test Breusch Pagan posee un pvalue mayor de 0.05 se podria decir que el modelo 1 acepta la hipotesis nula, es decir que no existe heterocedasticidad. Por lo tanto se aprueba que posee homoestacidad
+```{r}
+plot(reg2, 3)
+```
+
+
+```{r}
+library(lmtest)
+library(kableExtra)
+# null: modelo homocedastico
+resBP=bptest(reg2)
+data.frame(list('BP'=resBP$statistic,
+             'df'=resBP$parameter,
+             "p-value"=resBP$p.value))%>%
+    kable(caption = resBP$method)%>%kable_styling(full_width = F)
+```
+
+En el modelo 2 se rechaza la hipotesis nula es decir es heterocedastico
+```{r}
+plot(reg3, 3)
+```
+
+```{r}
+library(lmtest)
+library(kableExtra)
+# null: modelo homocedastico
+resBP=bptest(reg3)
+data.frame(list('BP'=resBP$statistic,
+             'df'=resBP$parameter,
+             "p-value"=resBP$p.value))%>%
+    kable(caption = resBP$method)%>%kable_styling(full_width = F)
+```
+En el modelo 3 se podria afirmar que es heterocedastico
+
+NORMALIDAD DE LOS RESIDUOS:
+```{r}
+plot(reg1, 2)
+```
+```{r}
+resSW=shapiro.test(reg1$residuals)
+data.frame(list('SW'=resSW$statistic,
+             "p-value"=resSW$p.value))%>%
+    kable(caption = resSW$method)%>%kable_styling(full_width = F)
+```
+El modelo 1 no sigue una distribución normal, es decir que poseen multicolinealidad
+```{r}
+plot(reg2, 2)
+```
+
+
+```{r}
+resSW=shapiro.test(reg2$residuals)
+data.frame(list('SW'=resSW$statistic,
+             "p-value"=resSW$p.value))%>%
+    kable(caption = resSW$method)%>%kable_styling(full_width = F)
+```
+El modelo 2, no siguen una distribución normal de manera muy fuerte por su pvalue de 0.es decir que poseen multicolinealidad
+```{r}
+plot(reg3, 2)
+```
+
+
+```{r}
+resSW=shapiro.test(reg3$residuals)
+data.frame(list('SW'=resSW$statistic,
+             "p-value"=resSW$p.value))%>%
+    kable(caption = resSW$method)%>%kable_styling(full_width = F)
+```
+El modelo 2 no sigue una distribución normal.es decir que poseen multicolinealidad
+
+
+No multicolinealidad
+```{r}
+library(DescTools)
+# > 5 es problematico
+VIF(reg1) %>%kable(col.names = "VIF",caption ="Evaluando Multicolinealidad usando VIF (Variance Inflation Factors)" )%>%kable_styling(full_width = F)
+```
+La prueba VIF de la calidad de vida señala que posean alrededor de  100222 es decir que posee una correlación moderado.
+```{r}
+# > 5 es problematico
+VIF(reg2) %>%kable(col.names = "VIF",caption ="Evaluando Multicolinealidad usando VIF (Variance Inflation Factors)" )%>%kable_styling(full_width = F)
+```
+Al igual que el modelo 1, el modelo 2 posee un 1.057504 es decir posee una correlación moderada.
+```{r}
+
+# > 5 es problematico
+VIF(reg3) %>%kable(col.names = "VIF",caption ="Evaluando Multicolinealidad usando VIF (Variance Inflation Factors)" )%>%kable_styling(full_width = F)
+```
+eL modelo 3 posee un VIF de 1.164005 es decir correlación moderada.
+
+VALORES INFLUYENTES: valores alejados que afectan los valores influyentes.
+```{r}
+plot(reg1, 5)
+```
+
+```{r}
+checkReg1=as.data.frame(influence.measures(reg1)$is.inf)
+checkReg1[checkReg1$cook.d & checkReg1$hat,c('cook.d','hat')]%>%kable(caption = "Valores Influyentes criticos")%>%kable_styling(full_width = F)
+```
+Como la prueba cook sale true significa que existe valores alejados o acumulados que afectan los valores influyentes.
+```{r}
+plot(reg2, 5)
+```
+
+```{r}
+checkReg2=as.data.frame(influence.measures(reg2)$is.inf)
+checkReg2[checkReg2$cook.d & checkReg2$hat,c('cook.d','hat')]%>%kable(caption = "Valores Influyentes criticos")%>%kable_styling(full_width = F)
+```
+Como la prueba cook sale true significa que existe valores alejados o acumulados que afectan los valores influyentes.
+```{r}
+plot(reg3, 5)
+```
+
+```{r}
+checkReg3=as.data.frame(influence.measures(reg3)$is.inf)
+checkReg3[checkReg3$cook.d & checkReg3$hat,c('cook.d','hat')]%>%kable(caption = "Valores Influyentes criticos")%>%kable_styling(full_width = F)
+```
+
+Como la prueba cook sale true significa que existe valores alejados o acumulados que afectan los valores influyentes.
+
+Conclusión de la pruebas de confirmación: la mayoria de modelos salio bastante parecidos, solo que en el segundo modelo aprobo una prueba más que los otros, pero al ser su nivel de significacia no se puede afirmar que tanto el modelo es mejor.
+
+#Análisis Factorial 
+
+```{r}
+colnames(data)
+```
+```{r}
+data<-data[,-17]
+```
+
+
+```{r}
+#Matriz de Correlación
+
+dontselect=c("Paises","Desplazamiento","IDH","Proteccsocial","Gastomilitar","CalidadVida" ,"PromedioGananciaMensualDólares","DemocraciaNivel")
+select=setdiff(names(data),dontselect) 
+theData=data[,select]
+```
+
+
+```{r}
+library(polycor)
+corMatrix=polycor::hetcor(theData)$correlations
+```
+
+```{r}
+library(ggcorrplot)
+```
+
+```{r}
+ggcorrplot(corMatrix)
+```
+factorizar:
+
+#Cuanto más cerca de 1 tenga el valor obtenido del test KMO, implica que la relación entres las variables es alta. Si KMO ≥ 0.9, el test es muy bueno; notable para KMO ≥ 0.8; mediano para KMO ≥ 0.7; bajo para KMO ≥ 0.6; y muy bajo para KMO < 0.5.
+
+```{r}
+library(psych)
+```
+
+```{r}
+psych::KMO(corMatrix) 
+```
+INTERPRETACIÓM: dado el resultado obtenido del test KMO, 0.7, podemos afirmar que existe correlación en de las variables propuestas. Estas variables fueron elegidas despues de realizar diferentes pruebas, donde las no escogidas no aportarían en buena medida al trabajo.
+
+#Verificar si la matriz de correlaciones es adecuada
+```{r}
+cortest.bartlett(corMatrix,n=nrow(theData))$p.value>0.05
+```
+```{r}
+library(matrixcalc)
+
+is.singular.matrix(corMatrix)
+```
+INTERPRETACIÓM: dado el resultado obtenido del test KMO, 0.7, podemos afirmar que existe correlación en de las variables propuestas. Estas variables fueron elegidas despues de realizar diferentes pruebas, donde las no escogidas no aportarían en buena medida al trabajo.
+
+#Verificar si la matriz de correlaciones es adecuada
+```{r}
+fa.parallel(theData,fm = 'ML', fa = 'fa',correct = T)
+```
+Interpretación: podemos ver qu el grafico recomienda redimencionar a dos factores. #Redimensionar a numero menor de factores #Resultado inicial:
+```{r}
+library(GPArotation)
+```
+
+```{r}
+resfa <- fa(theData,
+            nfactors = 2,
+            cor = 'mixed',
+            rotate = "varimax",
+            fm="minres")
+```
+```{r}
+print(resfa$loadings)
+```
+#Resultado mejorado (solo apropiado si hay más de un factor):
+```{r}
+print(resfa$loadings,cutoff = 0.5)
+```
+INTERPRETACIÓN: como se puede observar, el resultado mejorado, al ser separado por dos grupos, los varios de los resultados son significativos; sin embargo y gracias a que se logró que cada variable se acerque a un factor, hay que ver como interactuan estos en el resultado visual. #Cuando logramos que cada variable se vaya a un factor, tenemos una estructura simple.
+
+#Resultado visual:
+```{r}
+fa.diagram(resfa)
+```
+#Evaluando Resultado obtenido:
+
+```{r}
+sort(resfa$communality)
+```
+evaluando los resultados obenidos, las variables que podemos ver que más aportan es, en primer lugar, el TotalMujeresMigrantes; seguido de la EdadTra (edad de trabajadores migrantes en la edad de 19 a 64 años); en tercer lugar, la variable Adultos; así mismo y en cuarto lugar, la variable de Jóvenes. Es decir, el grupo etario es parte importante en las migraciones #¿Qué variables contribuyen a mas de un factor?   
+```{r}
+sort(resfa$complexity)
+```
+las variables como total de hombres migrantes, total de muejres migrantes, el total de adultos y el total de trabajadores mugrantes en la edad de 19 a 64 años son variables que puede aportar a más de un factor.
+
+#Posibles valores proyectados: #¿Qué nombres les darías?
+```{r}
+library(dplyr)
+```
+
+```{r}
+as.data.frame(resfa$scores)%>%head()
+```
+En conclusión, como se observa aquí y en el gráfico de arriba, hay dos grupos los cuales podríamos nombrarlos como -en primer lugar- el MR1 como el grupo que está más correlacionado con la obtención de residencia (facilidad en residencia) y -en sugundo lugar- el MR2 el grupo que tiene más correlación de refugiados (facilidad de reugiados) dificultad; donde si bien hay datos que estan correlacionados, hay otros datos que no tanto.
